@@ -1,0 +1,11 @@
+Your Conversation Log:
+You: Hi I am steve
+AI: Hello Steve! How can I assist you today?
+
+You: gord mornging
+AI: Good morning! How's your day going so far?
+
+You: tell me the weather in berlin
+AI: I'm unable to provide real-time weather updates. However, you can check a reliable weather website or app for the latest information on Berlin's weather. If there's anything else you'd like to know or discuss, feel free to ask!
+
+End of Conversation
