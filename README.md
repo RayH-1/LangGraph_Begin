@@ -135,7 +135,7 @@ This project has been an insightful journey into the world of LangChain, LangGra
 ### Key Learnings:
 
 1. **LangChain & LangGraph:**
-I learned how to design, implement, and optimize LangGraphs to represent agent workflows. This allows me to build AI agents that can reason over multiple steps, interact with external tools, and dynamically adapt based on context—an essential skill for building intelligent systems.
+I learned how to design, implement, and optimize LangGraphs to represent agent workflows. This allows me to build AI agents that can reason over multiple steps, interact with external tools, and dynamically adapt based on context, an essential skill for building intelligent systems.
 
 2. **Integration with OpenAI Models:**
 This project gave me hands-on experience with integrating OpenAI’s models into LangGraph agents using LangChain's ChatOpenAI. By combining the power of LLMs with a robust graph structure, I was able to create intelligent agents that can process, understand, and generate human-like responses across various tasks.
@@ -145,7 +145,7 @@ I also gained an in-depth understanding of RAG and its significance in improving
 
 ### How This Could Be Useful:
 
-- **Real-World Application in Business & Automation:** One of the most practical applications of LangGraph agents is in automating workflows that require reasoning, decision-making, and human-like interaction. For example, the Boss's Orders agent I built could easily be adapted to create AI-driven systems for automating document drafting, report generation, or even customer support tasks—saving businesses valuable time and improving efficiency.
+- **Real-World Application in Automation:** One of the most practical applications of LangGraph agents is in automating workflows that require reasoning, decision-making, and human-like interaction. For example, the Boss's Orders agent I built could easily be adapted to create AI-driven systems for automating document drafting, report generation, or even customer support tasks, saving the organization valuable time and improving efficiency.
 
 - **Enhanced Human-AI Collaboration:** By incorporating a feedback loop into the agent's design (as seen in the Boss's Orders task), LangGraph agents can be used in collaborative environments where humans and AI work together to refine outputs iteratively. This is particularly useful in content creation, decision support systems, and even creative industries, where human feedback is crucial for fine-tuning AI-generated results.
 
