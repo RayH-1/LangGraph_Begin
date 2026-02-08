@@ -17,9 +17,9 @@ Objectives:
 
 **Main Goal**: How to integrate LLMs in our Graphs
 
-The implementation is very similar to the [Hello_World](Practice\1_Hello_World.ipynb) practice
+The implementation is very similar to the [Hello_World](Practice/1_Hello_World.ipynb) practice
 
-![simple](Assets\one_node.png)
+![simple](Assets/one_node.png)
 
 
 
@@ -46,8 +46,8 @@ Objectives:
 
 **Main Goal**: Create a robust ReAct Agent!
 
-This implementation is very similar to what I learned in [Exercise 5](Exercise\Exercise_Graph5.ipynb) and [Looping Graph](Practice\5_Looping_Graph.ipynb)
-![ReAct](Assets\looping_node.png)
+This implementation is very similar to what I learned in [Exercise 5](Exercise/Exercise_Graph5.ipynb) and [Looping Graph](Practice/5_Looping_Graph.ipynb)
+![ReAct](Assets/looping_node.png)
 
 ```python
 from typing import Annotated, Sequence, TypedDict
@@ -95,7 +95,7 @@ able to able to provide continuous feedback and the AI Agent should
 stop when the Human is happy with the draft. The system should also
 **be fast and be able to save the drafts.**
 
-![Drafter](Assets\exercise5.png)
+![Drafter](Assets/exercise5.png)
 
 ```python
 def should_continue(state: AgentState): 
@@ -115,14 +115,14 @@ The for loop in the `should_continue()` edge above indicates the following:
 - Looks for the most recent tool message
 - Checks if this is a tool message resulting from `save()`
 - Goes to the end edge which leads to the endpoint
-- This is very similiar to the structure from [Exercise 5](Exercise\Exercise_Graph5.ipynb)
+- This is very similiar to the structure from [Exercise 5](Exercise/Exercise_Graph5.ipynb)
 
 ### RAG 
 
-The objective of this RAG is to scan the text from [Stock Market Performance 2024](Agents\inputs\Stock_Market_Performance_2024.pdf) and retrieve appropriate information from the text. The structure is very similar to the ReAct agent. However, there is a system prompt and the actions are more robust. There is a `retriever_tool()` which searches and retuns the information that the LLM has to use which reduces the risk of hallucination.
+The objective of this RAG is to scan the text from [Stock Market Performance 2024](Agents/inputs/Stock_Market_Performance_2024.pdf) and retrieve appropriate information from the text. The structure is very similar to the ReAct agent. However, there is a system prompt and the actions are more robust. There is a `retriever_tool()` which searches and retuns the information that the LLM has to use which reduces the risk of hallucination.
 
 
-![rag](Assets\rag.png)
+![rag](Assets/rag.png)
 
 
 
